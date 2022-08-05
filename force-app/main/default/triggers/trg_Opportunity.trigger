@@ -34,3 +34,4 @@ trigger trg_Opportunity on Opportunity (before Update,after update) {
         }
     }
 }
+//Test code change
