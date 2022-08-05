@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__OpenReferrals</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>HealthCloudGA__Specialty__c</columns>
+    <columns>HealthCloudGA__Priority__c</columns>
+    <columns>HealthCloudGA__ReferringOrganization__c</columns>
+    <columns>HealthCloudGA__ReferringPractitioner__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.HealthCloudGA__Patient_Referral</value>
+    </filters>
+    <label>Open Referrals</label>
+</ListView>

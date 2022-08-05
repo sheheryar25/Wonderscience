@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_alert_to_send_Error_Email_for_Integration_Object_Only_for_WebApp</fullName>
+        <ccEmails>danial.akbar@openbots.ai</ccEmails>
+        <ccEmails>sebastian.rivera@openbots.ai</ccEmails>
+        <ccEmails>usman.shafqat@openbots.ai</ccEmails>
+        <description>Email alert to send Error Email for Integration Object Only for WebApp</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jose@wondersciences.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>petr@wondersciences.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>vicente@wondersciences.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>wonderscience@arazach.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Integration/Send_Error_Email_New</template>
+    </alerts>
+    <rules>
+        <fullName>Send Email for Error on Integration Object</fullName>
+        <actions>
+            <name>Email_alert_to_send_Error_Email_for_Integration_Object_Only_for_WebApp</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 ) OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Integration__c.Status_Code__c</field>
+            <operation>notEqual</operation>
+            <value>200</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Integration__c.Status_Code__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Integration__c.Athena_Status__c</field>
+            <operation>equals</operation>
+            <value>Error</value>
+        </criteriaItems>
+        <description>This will send an email when error will be occurred on Web app.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

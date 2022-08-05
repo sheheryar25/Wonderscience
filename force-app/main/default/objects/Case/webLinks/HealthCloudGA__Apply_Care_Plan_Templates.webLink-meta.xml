@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__Apply_Care_Plan_Templates</fullName>
+    <availability>online</availability>
+    <description>Apply Care Plan Templates</description>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Apply Care Plan Templates</masterLabel>
+    <openType>replace</openType>
+    <page>HealthCloudGA__HcApplyCarePlanTemplate</page>
+    <protected>false</protected>
+</WebLink>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>היעד של תוכנית טיפול EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>יעד תוכנית טיפול EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>היעדים של תוכנית טיפול ה-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>יעדי תוכנית טיפול ה-EHR</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>מזהה יעד תוכנית טיפול ב-EHR</nameFieldLabel>
+</CustomObjectTranslation>

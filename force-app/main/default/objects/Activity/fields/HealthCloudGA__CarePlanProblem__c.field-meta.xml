@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__CarePlanProblem__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Problem this task is mean to address</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Problem this task is mean to address</inlineHelpText>
+    <label>Problem</label>
+    <referenceTo>HealthCloudGA__CarePlanProblem__c</referenceTo>
+    <relationshipLabel>Activities</relationshipLabel>
+    <relationshipName>Activities</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

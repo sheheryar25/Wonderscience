@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__CarePlanGoal__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Goal this task is meant to address</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Goal this task is meant to address</inlineHelpText>
+    <label>Goal</label>
+    <referenceTo>HealthCloudGA__CarePlanGoal__c</referenceTo>
+    <relationshipLabel>Activities</relationshipLabel>
+    <relationshipName>Activities</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

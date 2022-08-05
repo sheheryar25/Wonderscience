@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TODAY</fullName>
+    <columns>NAME</columns>
+    <columns>Class_Name__c</columns>
+    <columns>Method_Action__c</columns>
+    <columns>Payload__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Status_Code__c</columns>
+    <columns>Athena_Message__c</columns>
+    <columns>Athena_Status__c</columns>
+    <columns>Send_To_Athena__c</columns>
+    <columns>Ready_for_Athena__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Message__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>TODAY</label>
+</ListView>

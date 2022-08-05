@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>תצורת כרטיס המטופל</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>תצורת כרטיס מטופל</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>תצורות כרטיס המטופל</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>תצורות כרטיס מטופל</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>שם תצורת כרטיס מטופל</nameFieldLabel>
+</CustomObjectTranslation>

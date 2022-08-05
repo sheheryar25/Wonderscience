@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__ReasonForOutOfNetworkReferral__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reason the referral is sent out of network.</description>
+    <externalId>false</externalId>
+    <label>Reason for Out of Network Referral</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Provider Preference</fullName>
+                <default>false</default>
+                <label>Provider Preference</label>
+            </value>
+            <value>
+                <fullName>Patient Preference</fullName>
+                <default>false</default>
+                <label>Patient Preference</label>
+            </value>
+            <value>
+                <fullName>Limited Provider Availability</fullName>
+                <default>false</default>
+                <label>Limited Provider Availability</label>
+            </value>
+            <value>
+                <fullName>Service Not Offered</fullName>
+                <default>false</default>
+                <label>Service Not Offered</label>
+            </value>
+            <value>
+                <fullName>Insurance Not Accepted</fullName>
+                <default>false</default>
+                <label>Insurance Not Accepted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

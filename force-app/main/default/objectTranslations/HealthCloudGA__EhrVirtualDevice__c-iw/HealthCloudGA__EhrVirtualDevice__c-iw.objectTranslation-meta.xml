@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>ההתקן הווירטואלי ב-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>התקן וירטואלי ב-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>ההתקנים הווירטואליים ב-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>התקנים וירטואליים ב-EHR</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>מזהה מכשיר וירטואלי ב-EHR</nameFieldLabel>
+</CustomObjectTranslation>

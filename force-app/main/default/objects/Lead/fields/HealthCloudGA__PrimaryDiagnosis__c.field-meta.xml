@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__PrimaryDiagnosis__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Primary diagnosis associated with the Referral</description>
+    <externalId>false</externalId>
+    <label>Primary Diagnosis</label>
+    <referenceTo>HealthCareDiagnosis</referenceTo>
+    <relationshipLabel>Leads (PrimaryDiagnosis)</relationshipLabel>
+    <relationshipName>Leads3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

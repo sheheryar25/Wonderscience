@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Declaração de medicação do RES</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Declarações de medicação do RES</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID do histórico de medicamentos do RES</nameFieldLabel>
+</CustomObjectTranslation>

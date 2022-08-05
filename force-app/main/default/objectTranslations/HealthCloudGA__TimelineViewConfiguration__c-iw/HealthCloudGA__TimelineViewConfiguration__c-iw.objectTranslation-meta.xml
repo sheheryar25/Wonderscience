@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>תצורת התצוגה של ציר הזמן</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>תצורת תצוגה של ציר זמן</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>תצורות התצוגה של ציר הזמן</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>תצורות תצוגה של ציר זמן</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>שם תצורה של תצוגת ציר זמן</nameFieldLabel>
+</CustomObjectTranslation>

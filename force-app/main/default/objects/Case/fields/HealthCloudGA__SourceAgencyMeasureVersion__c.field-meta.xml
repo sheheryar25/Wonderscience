@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__SourceAgencyMeasureVersion__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Version of the source agency&apos;s ID measure for this care gap.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Version of the source agency&apos;s ID measure for this care gap.</inlineHelpText>
+    <label>Source Agency Measure Version</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

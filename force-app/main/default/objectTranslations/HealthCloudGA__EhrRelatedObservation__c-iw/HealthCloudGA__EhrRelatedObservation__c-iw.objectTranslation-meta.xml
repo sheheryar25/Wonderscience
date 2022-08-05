@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>התצפית הקשורה ל-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>תצפית קשורה ל-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>התצפיות הקשורות ל-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>תצפיות קשורות ל-EHR</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>שם תצפית קשורה ב-EHR</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__ReferredToOrganization__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Name of the organization receiving or fulfilling the referral.</description>
+    <externalId>false</externalId>
+    <label>Referred To Organization</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Leads (Referred To Organization)</relationshipLabel>
+    <relationshipName>Leads2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

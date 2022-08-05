@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>החשש בתוכנית טיפול EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>חשש בתוכנית טיפול EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>החששות בתוכנית טיפול EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>חששות בתוכנית טיפול EHR</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>מזהה חשש בתוכנית טיפול ב-EHR</nameFieldLabel>
+</CustomObjectTranslation>

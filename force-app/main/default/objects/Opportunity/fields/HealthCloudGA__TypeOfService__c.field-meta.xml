@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__TypeOfService__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of service requested.</description>
+    <externalId>false</externalId>
+    <label>Type of Service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consultation</fullName>
+                <default>false</default>
+                <label>Consultation</label>
+            </value>
+            <value>
+                <fullName>2nd Opinion</fullName>
+                <default>false</default>
+                <label>2nd Opinion</label>
+            </value>
+            <value>
+                <fullName>Radiology Services</fullName>
+                <default>false</default>
+                <label>Radiology Services</label>
+            </value>
+            <value>
+                <fullName>Lab Services</fullName>
+                <default>false</default>
+                <label>Lab Services</label>
+            </value>
+            <value>
+                <fullName>Follow up</fullName>
+                <default>false</default>
+                <label>Follow up</label>
+            </value>
+            <value>
+                <fullName>Surgery</fullName>
+                <default>false</default>
+                <label>Surgery</label>
+            </value>
+            <value>
+                <fullName>Other (please specify in comments)</fullName>
+                <default>false</default>
+                <label>Other (please specify in comments)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

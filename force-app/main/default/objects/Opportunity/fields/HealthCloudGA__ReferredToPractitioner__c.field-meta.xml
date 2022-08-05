@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__ReferredToPractitioner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Name of the practitioner to whom the patient is being referred.</description>
+    <externalId>false</externalId>
+    <label>Referred To Practitioner</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Referred Opportunities</relationshipLabel>
+    <relationshipName>ReferredOpportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

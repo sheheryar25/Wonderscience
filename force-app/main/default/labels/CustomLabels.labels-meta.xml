@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Integration_User_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Integration User Id</shortDescription>
+        <value>0055f0000031Kk1</value>
+    </labels>
+    <labels>
+        <fullName>JWT_Secret</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JWT Secret</shortDescription>
+        <value>2ZF4WiHZCe3Xt_POfRtQJjE</value>
+    </labels>
+    <labels>
+        <fullName>ProfileId_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProfileId Label</shortDescription>
+        <value>00e5f000000ab81</value>
+    </labels>
+    <labels>
+        <fullName>WebAPP_BaseURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WebAPP BaseURL</shortDescription>
+        <value>https://app.wondermed.com/</value>
+    </labels>
+</CustomLabels>

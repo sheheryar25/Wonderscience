@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Case_Owner</fullName>
+    <active>true</active>
+    <description>Does not allow to change case owner for Standard User</description>
+    <errorConditionFormula>IF(AND(ISCHANGED( OwnerId), $User.ProfileId  = &apos;00e5f000001oDUn&apos;), true, false)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>You are not allowed to change the Ownership of Case</errorMessage>
+</ValidationRule>

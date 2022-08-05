@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__ReasonForDisqualification__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Reason for Disqualification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MD declines to sign orders</fullName>
+                <default>false</default>
+                <label>MD declines to sign orders</label>
+            </value>
+            <value>
+                <fullName>Patient refuses services</fullName>
+                <default>false</default>
+                <label>Patient refuses services</label>
+            </value>
+            <value>
+                <fullName>Another agency is involved</fullName>
+                <default>false</default>
+                <label>Another agency is involved</label>
+            </value>
+            <value>
+                <fullName>Requested services can’t be provided</fullName>
+                <default>false</default>
+                <label>Requested services can’t be provided</label>
+            </value>
+            <value>
+                <fullName>Requested services aren’t needed</fullName>
+                <default>false</default>
+                <label>Requested services aren’t needed</label>
+            </value>
+            <value>
+                <fullName>Patient isn’t eligible for insurance</fullName>
+                <default>false</default>
+                <label>Patient isn’t eligible for insurance</label>
+            </value>
+            <value>
+                <fullName>Patient is outside coverage area</fullName>
+                <default>false</default>
+                <label>Patient is outside coverage area</label>
+            </value>
+            <value>
+                <fullName>Referral was canceled</fullName>
+                <default>false</default>
+                <label>Referral was canceled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
