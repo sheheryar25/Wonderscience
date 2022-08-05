@@ -3,10 +3,8 @@
 # For useful gitignore templates see: https://github.com/github/gitignore
 
 # Salesforce cache
-.sf/
 .sfdx/
 .localdevserver/
-deploy-options.json
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
@@ -35,6 +33,4 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
-
-# Local environment variables
-.env
+force-app/main/default/package.xml
